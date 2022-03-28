@@ -1,0 +1,9 @@
+{
+  "ledCount" : 155,
+  "totalSegmentFirstIndex" : 0,
+  "totalSegmentLastIndex" : 154,
+  "totalSegmentMidLastIndex" : 76,
+  "totalSegmentMidFirstIndex" : 77,
+  "maximumBrightness" : 255,
+  "minVoltageToFunction" : 0
+}

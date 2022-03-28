@@ -1,0 +1,38 @@
+{
+  "topRegularPO" : 0.5,
+  "regularVelocity" : 400,
+  "bottomRegularPO" : 0.5,
+  "reversePO" : -0.23,
+  "topReversePO" : -0.5,
+  "bottomReversePO" : -0.5,
+  "rightSparkPO" : 0.5,
+  "leftSparkPO" : 0.5,
+  "indexingTime" : 1.0,
+  "maxManualVelocity" : 0.4,
+  "indexerDriveButtonPO" : 0.8,
+  "flushVelocity": 400,
+  "topIndexerGains" : {
+    "p" : 0.000797872,
+    "i" : 0.0,
+    "d" : 0.0,
+    "f" : 0.000797872,
+    "iZone" : 0.0,
+    "iMax" : 0.0,
+    "acceleration" : 1000.0,
+    "velocity" : 2000.0,
+    "allowableError" : 0.0,
+    "minimumOutputVelocity" : 0.0
+  },
+  "bottomIndexerGains" : {
+    "p" : 0.0001,
+    "i" : 0.0,
+    "d" : 0.0,
+    "f" : 0.000361446,
+    "iZone" : 0.0,
+    "iMax" : 0.0,
+    "acceleration" : 2000.0,
+    "velocity" : 4000.0,
+    "allowableError" : 0.0,
+    "minimumOutputVelocity" : 0.0
+  }
+}

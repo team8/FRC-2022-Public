@@ -1,0 +1,28 @@
+{
+  "rezeroOutput" : 0.05,
+  "minDeltaRezero" : 0.2,
+  "positionControlDistance" : 180.0,
+  "telescopeSwingerHeightDifference" : 12.0,
+  "telescopeHookDownSlightDistance" : 5.0,
+  "acceptableArmPositionError" : 5.0,
+  "armVelocityGains" : {
+    "p" : 0.0,
+    "i" : 0.0,
+    "d" : 0.0,
+    "f" : 0.000175336,
+    "acceleration" : 4000.0,
+    "velocity" : 5000.0,
+    "allowableError" : 0.5,
+    "minimumOutputVelocity" : 0.0
+  },
+  "swingerVelocityGains" : {
+    "p" : 0.0,
+    "i" : 0.0,
+    "d" : 0.0,
+    "f" : 0.000175336,
+    "acceleration" : 4000.0,
+    "velocity" : 5000.0,
+    "allowableError" : 0.5,
+    "minimumOutputVelocity" : 0.0
+  }
+}

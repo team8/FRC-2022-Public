@@ -1,0 +1,40 @@
+{
+  "profiledGains" : {
+    "p" : 3.0E-4,
+    "i" : 0.0,
+    "d" : 0.0,
+    "f" : 0.00145,
+    "iZone" : 0.0,
+    "iMax" : 0.0,
+    "acceleration" : 180.0,
+    "velocity" : 180.0,
+    "allowableError" : 0.0,
+    "minimumOutputVelocity" : 0.0
+  },
+  "preciseGains" : {
+    "p" : 0.0084,
+    "i" : 0.0,
+    "d" : 6.75E-4,
+    "f" : 0.0,
+    "iZone" : 0.0,
+    "iMax" : 0.0
+  },
+  "acceptableYawError" : 0.25,
+  "alignSwitchYawAngleMin" : 40.0,
+  "oneTimesZoomGains" : {
+    "p" : 0.005,
+    "i" : 0.005,
+    "d" : 0.001,
+    "f" : 0.0,
+    "iZone" : 0.0,
+    "iMax" : 0.03
+  },
+  "twoTimesZoomGains" : {
+    "p" : 5.0E-4,
+    "i" : 0.0025,
+    "d" : 5.0E-4,
+    "f" : 0.0,
+    "iZone" : 0.0,
+    "iMax" : 0.03
+  }
+}

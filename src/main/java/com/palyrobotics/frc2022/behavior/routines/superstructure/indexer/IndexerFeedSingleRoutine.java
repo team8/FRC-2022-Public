@@ -1,0 +1,45 @@
+package com.palyrobotics.frc2022.behavior.routines.superstructure.indexer;
+
+import java.util.Set;
+
+import com.palyrobotics.frc2022.behavior.TimeoutRoutineBase;
+import com.palyrobotics.frc2022.config.subsystem.IndexerConfig;
+import com.palyrobotics.frc2022.robot.Commands;
+import com.palyrobotics.frc2022.robot.RobotState;
+import com.palyrobotics.frc2022.subsystems.Indexer;
+import com.palyrobotics.frc2022.subsystems.SubsystemBase;
+import com.palyrobotics.frc2022.util.config.Configs;
+
+public class IndexerFeedSingleRoutine extends TimeoutRoutineBase {
+
+	private IndexerConfig mConfig = Configs.get(IndexerConfig.class);
+	private boolean hasfirstBall, hasLastBall, mReverse;
+
+	public IndexerFeedSingleRoutine(double duration, boolean reverse) {
+		super(duration);
+		mReverse = reverse;
+	}
+
+	public void stop(Commands commands, RobotState robotState) {
+		commands.indexerTopWantedState = Indexer.State.IDLE;
+	}
+
+	@Override
+	public boolean checkIfFinishedEarly(RobotState state) {
+		return false;
+	}
+
+	public void update(Commands commands, RobotState robotState) {
+		if (mReverse && hasfirstBall) {
+			commands.indexerBottomWantedState = Indexer.State.INDEX;
+		} else if (mReverse && hasLastBall) {
+			commands.indexerTopWantedState = Indexer.State.INDEX;
+		} else {
+			commands.indexerTopWantedState = Indexer.State.REVERSE;
+		}
+	}
+
+	public Set<Class<? extends SubsystemBase>> getRequiredSubsystems() {
+		return Set.of(Indexer.class);
+	}
+}

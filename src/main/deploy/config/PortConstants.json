@@ -1,0 +1,22 @@
+{
+  "alvaldiClimberTelescopeArmMasterId" : 4,
+  "alvaldiClimberTelescopeArmSlaveId" : 2,
+  "alvaldiSwingerArmMasterId":  5,
+  "alvaldiSwingerArmSlaveId": 19,
+  "alvaldiDriveLeftMasterId" : 15,
+  "alvaldiDriveLeftSlaveId" : 13,
+  "alvaldiDriveRightMasterId" : 12,
+  "alvaldiDriveRightSlaveId" : 11,
+  "alvaldiDriveGyroId" : 9,
+  "alvaldiLightingPwmPort" : 9,
+  "alvaldiIndexerTopId" : 3,
+  "alvaldiIndexerBottomId" : 9,
+  "alvaldiShooterLowerId" : 16,
+  "alvaldiShooterUpperId" : 14,
+  "alvaldiShooterHoodId" : 7,
+  "alvaldiIntakeId" : 8,
+  "alvaldiIntakeLowerId": 18,
+  "alvaldiIntakePotentiometerId": 1,
+  "alvaldiTurretMotorId" : 6,
+  "alvaldiTurretPotentiometerId" : 0
+}

@@ -1,0 +1,19 @@
+{
+  "intakePercentOutput" : 0.7,
+  "kVoltageCompensation" : 12.0,
+  "intakeDeployTolerance": 1.0,
+  "feedForwardPO": 0.02,
+  "timeUntilReset": 0.5,
+  "deployGains": {
+    "p" : 0.0,
+    "i" : 0.0,
+    "d" : 0.0,
+    "f" : 0.00272208,
+    "iZone" : 0.0,
+    "iMax" : 0.0,
+    "acceleration" : 1000.0,
+    "velocity" : 150.0,
+    "allowableError" : 0.0,
+    "minimumOutputVelocity" : 0.5
+  }
+}

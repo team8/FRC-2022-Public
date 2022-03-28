@@ -1,0 +1,41 @@
+{
+  "velocityGains" : {
+    "p" : 0.015,
+    "i" : 0.0,
+    "d" : 0.0,
+    "f" : 0.04697616751,
+    "iZone" : 0.0,
+    "iMax" : 0.0
+  },
+  "profiledVelocityGains" : null,
+  "turnGains" : {
+    "p" : 1.7E-4,
+    "i" : 0.0,
+    "d" : 0.4,
+    "f" : 0.01,
+    "iZone" : 0.0,
+    "iMax" : 0.0,
+    "acceleration" : 600.0,
+    "velocity" : 280.0,
+    "allowableError" : 0.0,
+    "minimumOutputVelocity" : 0.0
+  },
+  "turnGainsS" : 0.05,
+  "quickStopWeight" : 0.125,
+  "quickTurnScalar" : 0.4,
+  "quickStopDeadBand" : 0.5,
+  "quickStopScalar" : 0.0,
+  "slowTurnScalar" : 0.1,
+  "slowMoveScalar" : 0.1,
+  "turnSensitivity" : 0.65,
+  "lowNegativeInertiaThreshold" : 0.65,
+  "lowNegativeInertiaFarScalar" : 5.0,
+  "lowNegativeInertiaCloseScalar" : 3.0,
+  "lowNegativeInertiaTurnScalar" : 2.5,
+  "wheelNonLinearity" : 0.5,
+  "nonlinearPasses" : 3,
+  "pathVelocityMetersPerSecond" : 3,
+  "pathAccelerationMetersPerSecondSquared" : 2.5,
+  "allowableYawErrorDegrees" : 2.0
+
+}

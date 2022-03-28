@@ -1,0 +1,17 @@
+{
+  "targetingGains" : {
+    "p" : 4.0E-5,
+    "i" : 0.0,
+    "d" : 0.002,
+    "f" : 6.0E-5,
+    "iZone" : 0.0,
+    "iMax" : 0.0,
+    "acceleration" : 4000.0,
+    "velocity" : 5000.0,
+    "allowableError" : 0.0,
+    "minimumOutputVelocity" : 0.0
+  },
+  "yawError" : 0.1,
+  "gyroYawVelocityCompensationFactor" : 0.075,
+  "manualMaxAngularVelocity" : 10.0
+}
